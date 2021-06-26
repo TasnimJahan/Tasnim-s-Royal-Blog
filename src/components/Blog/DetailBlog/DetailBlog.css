@@ -1,0 +1,23 @@
+.detailBlog{
+    color: #fff;
+    background-color: #1f2937;
+    border:2px solid #1f2937;
+}
+.detailBlogArea.container {
+    margin: 7% 15%;
+    width: auto;
+    height: fit-content;
+}
+.detailTitle{
+    font-size:3em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.detailImg {
+    margin: 0 auto;
+    margin-top: 4%;
+    width: 62%;
+}
+.detailText{
+    text-align: justify;
+}

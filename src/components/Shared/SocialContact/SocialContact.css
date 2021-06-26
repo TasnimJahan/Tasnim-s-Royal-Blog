@@ -1,0 +1,119 @@
+.socialContact{
+    font: normal normal 15px 'Proza Libre', Serif;
+    line-height: 160%;
+    color: #555555;
+    -webkit-font-smoothing: antialiased;
+    margin: 3% 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+.socialContact ul{
+    font: normal normal 15px 'Proza Libre', Serif;
+line-height: 160%;
+color: #555555;
+-webkit-font-smoothing: antialiased;
+margin: 0;
+padding: 0;
+border: 0;
+outline: 0;
+font-size: 100%;
+vertical-align: baseline;
+list-style: none;
+}
+
+/* .share-icons{
+    margin:5%
+} */
+
+.socialContact li{
+    font: normal normal 15px 'Proza Libre', Serif;
+color: #555555;
+-webkit-font-smoothing: antialiased;
+list-style: none;
+margin: 0;
+padding: 0;
+border: 0;
+outline: 0;
+vertical-align: baseline;
+float: left;
+margin-right: 10px;
+font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+font-size: .86em;
+font-weight: bold;
+line-height: 140%;
+}
+
+
+.icon-facebook a{
+    font: normal normal 15px 'Proza Libre', Serif;
+    -webkit-font-smoothing: antialiased;
+    list-style: none;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-weight: bold;
+    line-height: 140%;
+    margin: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    padding: 5px 10px 5px 10px;
+    color: #fff;
+    display: inline-block;
+    position: relative;
+    border-radius: 1px;
+    text-decoration: none;
+    transition: all .3s ease;
+    background-color: #3C5A96;
+}
+
+.icon-twitter a{
+    font: normal normal 15px 'Proza Libre', Serif;
+    -webkit-font-smoothing: antialiased;
+    list-style: none;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-weight: bold;
+    line-height: 140%;
+    margin: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    padding: 5px 10px 5px 10px;
+    color: #fff;
+    display: inline-block;
+    position: relative;
+    border-radius: 1px;
+    text-decoration: none;
+    transition: all .3s ease;
+    background-color: #55ACEE;
+}
+
+.icon-linkedIn a{
+    font: normal normal 15px 'Proza Libre', Serif;
+    -webkit-font-smoothing: antialiased;
+    list-style: none;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-weight: bold;
+    line-height: 140%;
+    margin: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    padding: 5px 10px 5px 10px;
+    color: #fff;
+    display: inline-block;
+    position: relative;
+    border-radius: 1px;
+    text-decoration: none;
+    transition: all .3s ease;
+    background-color: #0a66c2;
+    /* padding-left: 0;
+    padding-right: 0;
+    width: 34px;
+    text-indent: -500px;
+    overflow: hidden; */
+}

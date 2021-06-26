@@ -1,0 +1,19 @@
+.blog{
+    padding: 2% 0;
+    border:2px slid yellow;
+    background-color:#212121;
+    height:fit-content;
+    color:#4dab35;
+}
+.blogArea{
+    border:2px solid #4dab35;
+}
+.sidebars{
+    padding-left: 4%;
+}
+.recent-post {
+    margin: 20% 2%;
+}
+.recent-comment {
+    margin: 20% 2%;
+}

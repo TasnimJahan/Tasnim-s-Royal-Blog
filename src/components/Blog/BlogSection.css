@@ -1,0 +1,16 @@
+.blogSection {
+    border: 2px solid #4dab35;
+    padding: 2%;
+    margin-top: 1.4%;
+    /* margin-left: 0px; */
+    background-color: #212121;
+}
+h2.card-title.title {
+    font-size: 2em;
+}
+
+.blogContents{
+    line-height: 1.5em;
+    height: 6em;       /* height is 2x line-height, so two lines will display */
+    overflow: hidden;
+}

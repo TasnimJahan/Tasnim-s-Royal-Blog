@@ -1,0 +1,16 @@
+.deleteIcon{
+    width: 10%;
+    cursor:pointer;
+}
+th,tr:hover {
+    border: 3px solid #a340cc!important;
+    background-color: darkgrey;
+}
+
+@media (max-width: 688px){
+    
+.deleteIcon{
+    width: 40%;
+    cursor:pointer;
+}
+}
