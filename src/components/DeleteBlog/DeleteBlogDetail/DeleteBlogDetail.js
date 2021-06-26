@@ -10,7 +10,7 @@ const DeleteBlogDetail = ({blog}) => {
     const [loggedInUser,setLoggedInUser] = useContext(UserContext);  
     console.log(loggedInUser.email);
         const deleteEvent=(id)=>{
-            fetch(`http://localhost:5000/deleteBlogs/${id}`, {
+            fetch(`https://secure-bastion-15969.herokuapp.com/deleteBlogs/${id}`, {
                 method: 'DELETE'
             })
             .then(response => response.json())

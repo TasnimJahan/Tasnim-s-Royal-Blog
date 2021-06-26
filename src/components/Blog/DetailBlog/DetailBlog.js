@@ -11,7 +11,7 @@ const DetailBlog = () => {
     console.log(id);
     const [blog,setBlog]=useState({})
     useEffect(() => {
-        fetch(`http://localhost:5000/blogs/${id}`)
+        fetch(`https://secure-bastion-15969.herokuapp.com/blogs/${id}`)
         .then((response) =>response.json())
         .then(data => {
             console.log(data[0])
@@ -31,7 +31,7 @@ const DetailBlog = () => {
                 {
                 blog.image ? <img className="detailImg " src={`data:image/png;base64,${blog.image.img}`}/>
                 :
-                <img className="detailImg img-fluid mb-3" src={`http://localhost:5000/${blog.img}`} alt=""/>
+                <img className="detailImg img-fluid mb-3" src={`https://secure-bastion-15969.herokuapp.com/${blog.img}`} alt=""/>
             }
                 <footer className="text-center mb-4 text-muted">{blogTitle}</footer>
                 <p className="detailText">{blogContent}</p>

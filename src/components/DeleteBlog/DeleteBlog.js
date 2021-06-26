@@ -9,7 +9,7 @@ import './DeleteBlog.css';
 const DeleteBlog = () => {
     const [blogs,setBlogs] = useState([]);
     useEffect(()=>{
-        fetch('http://localhost:5000/blogs')
+        fetch('https://secure-bastion-15969.herokuapp.com/blogs')
         .then(res => res.json())
         .then(data => setBlogs(data))
     }, [])

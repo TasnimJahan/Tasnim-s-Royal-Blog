@@ -13,7 +13,7 @@ const BlogSection = ({blog}) => {
                  {
                 blog.image ? <img style={{height: '500px'}} src={`data:image/png;base64,${blog.image.img}`}/>
                 :
-                <img style={{height: '500px'}} className="img-fluid mb-3" src={`http://localhost:5000/${blog.img}`} alt=""/>
+                <img style={{height: '500px'}} className="img-fluid mb-3" src={`https://secure-bastion-15969.herokuapp.com/${blog.img}`} alt=""/>
             }
                 {/* <img src={require(`../../images/${pic}`).default} class="card-img-top" alt="aa" /> */}
                 <div class="card-body">

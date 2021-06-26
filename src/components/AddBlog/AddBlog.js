@@ -30,7 +30,7 @@ const AddBlog = () => {
         formData.append('blogTitle', info.blogTitle);
         formData.append('blogContent', info.blogContent);
 
-        fetch('http://localhost:5000/addBlogs', {
+        fetch('https://secure-bastion-15969.herokuapp.com/addBlogs', {
             method: 'POST',
             body: formData
         })
